@@ -1,18 +1,18 @@
 pets = dict()  
-pet_name = input("Имя питомца: ")  
-pet_view = input(f"Введите вид питомца {pet_name}: ")  
-pet_age = int(input(f"Введите возраст питомца {pet_name}: "))  
-pet_user = input(f"Введите имя владельца питомца {pet_name}: ")  
+pet_name = input("РРјСЏ РїРёС‚РѕРјС†Р°: ")  
+pet_view = input(f"Р’РІРµРґРёС‚Рµ РІРёРґ РїРёС‚РѕРјС†Р° {pet_name}: ")  
+pet_age = int(input(f"Р’РІРµРґРёС‚Рµ РІРѕР·СЂР°СЃС‚ РїРёС‚РѕРјС†Р° {pet_name}: "))  
+pet_user = input(f"Р’РІРµРґРёС‚Рµ РёРјСЏ РІР»Р°РґРµР»СЊС†Р° РїРёС‚РѕРјС†Р° {pet_name}: ")  
 if pet_age % 10 == 1 and pet_age % 100 != 11:  
-    suffix = "год"  
+    suffix = "РіРѕРґ"  
 elif pet_age % 10 in [2, 3, 4] and not (pet_age % 100 in [12, 13, 14]):  
-    suffix = "года"  
+    suffix = "РіРѕРґР°"  
 else:  
-    suffix = "лет"  
+    suffix = "Р»РµС‚"  
 pet_info = {  
-    "Вид питомца ": pet_view,  
-    "Возраст питомца ": f"{pet_age} {suffix}",  
-    "Имя владельца ": pet_user  
+    "Р’РёРґ РїРёС‚РѕРјС†Р° ": pet_view,  
+    "Р’РѕР·СЂР°СЃС‚ РїРёС‚РѕРјС†Р° ": f"{pet_age} {suffix}",  
+    "РРјСЏ РІР»Р°РґРµР»СЊС†Р° ": pet_user  
 }  
 pets[pet_name] = pet_info  
 print(pets)  
