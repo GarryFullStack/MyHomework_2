@@ -1,6 +1,6 @@
 class Cassa:
 
-    summa=25125 # количество денег в кассе
+    summa=25125 # РєРѕР»РёС‡РµСЃС‚РІРѕ РґРµРЅРµРі РІ РєР°СЃСЃРµ
 
     def top_up(self, pokup):
 
@@ -8,7 +8,7 @@ class Cassa:
 
        pokup+=Cassa.summa
 
-       return f"в кассе {pokup}"
+       return f"РІ РєР°СЃСЃРµ {pokup}"
 
     def count_1000(self):
 
@@ -22,7 +22,7 @@ class Cassa:
 
          else:
 
-          return f"не достаточно денег"
+          return f"РЅРµ РґРѕСЃС‚Р°С‚РѕС‡РЅРѕ РґРµРЅРµРі"
 r=Cassa()
 print(r.top_up(125))
 
