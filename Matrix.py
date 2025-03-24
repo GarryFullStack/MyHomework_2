@@ -1,6 +1,6 @@
 import random  
-n = int(input ("Введите число строк "))
-m = int(input ("Введите число столбцов "))
+n = int(input ("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЃС‚СЂРѕРє "))
+m = int(input ("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЃС‚РѕР»Р±С†РѕРІ "))
 matrix_1 = [[random.randint(-50, 200) for _ in range(n)] for _ in range(m)]  
 matrix_2 = [[random.randint(-50, 200) for _ in range(n)] for _ in range(m)]  
 print('matrix_1')  
