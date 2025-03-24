@@ -12,7 +12,7 @@ class Bus(Transport):
         
         
     def __str__(self):
-        return "Название автомобиля: "+self.name+" Макс. скорость: "+str(self.max_speed)+" Пробег: "+str(self.mileage)
+        return "РќР°Р·РІР°РЅРёРµ Р°РІС‚РѕРјРѕР±РёР»СЏ: "+self.name+" РњР°РєСЃ. СЃРєРѕСЂРѕСЃС‚СЊ: "+str(self.max_speed)+" РџСЂРѕР±РµРі: "+str(self.mileage)
         
 bus=Bus("Renault Logan", 180, 12)
 print(bus)
