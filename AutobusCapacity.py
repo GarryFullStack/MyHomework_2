@@ -10,7 +10,7 @@ class Transport:
 
    def seating_capacity(self, capacity):
 
-    return f"Вместимость одного автобуса Renault Logan: {capacity} пассажиров"
+    return f"Р’РјРµСЃС‚РёРјРѕСЃС‚СЊ РѕРґРЅРѕРіРѕ Р°РІС‚РѕР±СѓСЃР° Renault Logan: {capacity} РїР°СЃСЃР°Р¶РёСЂРѕРІ"
 
 class Autobus(Transport):
 
