@@ -1,4 +1,4 @@
-list = input('Введите через пробел числа : ')  
+list = input('Р’РІРµРґРёС‚Рµ С‡РµСЂРµР· РїСЂРѕР±РµР» С‡РёСЃР»Р° : ')  
 numbers = map(int, list.split())  
 seen = set()  
 for number in numbers:  
