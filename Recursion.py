@@ -4,5 +4,5 @@ def print_elements(lst, index=0):
    print(lst[index])  
    print_elements(lst,index + 1)  
  else:  
-   print("Конец списка")  
+   print("РљРѕРЅРµС† СЃРїРёСЃРєР°")  
 print_elements(my_list)  
