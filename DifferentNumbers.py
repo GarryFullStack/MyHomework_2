@@ -1,4 +1,4 @@
-N = int(input("Введите количество чисел: "))
-numbers = list(map(int, input(f'Введите через пробел {N} чисел: ').split()))
+N = int(input("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР»: "))
+numbers = list(map(int, input(f'Р’РІРµРґРёС‚Рµ С‡РµСЂРµР· РїСЂРѕР±РµР» {N} С‡РёСЃРµР»: ').split()))
 number_list = set(numbers)
 print(len(number_list))
